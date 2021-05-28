@@ -1,0 +1,93 @@
+
+/*
+Main style for home page and all
+*/
+
+html body h1
+{
+	color:white;
+	text-transform:uppercase;
+	font-size:28px;
+	text-align:center;
+	background-color: blue;
+}
+
+ol{
+	height:50px;
+	background-color:rgb(210, 186, 221)
+}
+li{ cursor: alias;padding-left: inherit;color: red;display: inline;text-transform:uppercase; }
+#register-button,#login-btn,.add-to-cart
+{
+
+width:auto;
+height:10%;
+font-size:18px;
+text-transform:uppercase;
+background-color:green;
+color:white;
+border:4px yellow;
+
+	border-radius:5px;
+}
+input[type='text'],input[type='password']	
+{
+	width:30%;
+	border-radius:5px;
+	border:1px solid black;
+	height:10%;
+	padding-top:3px;
+}
+.vi-form
+{
+	text-align:center;
+}
+select {
+    width: 20%;
+    height: 27px;
+    border: 1px solid;
+	border-radius:6px;
+	}
+	textarea
+	{
+		width:30%;
+	}
+	
+	
+	label {
+    color: #ab09ff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+div.banner-section{
+	height:50%;
+	background-repeat: no-repeat;
+background: url(/onlineshopping/assets/images/banner-img.jpg);
+}
+button.vi-viewmore
+{
+	margin:10px;
+	color:white;
+	border:none;
+}
+img.product-main-img {
+        max-height: 250px;
+    object-fit: contain;
+}
+.main-class {
+    
+	display:flex;
+}
+
+.product-image {
+    text-align: center;
+    width: 50%;
+}
+.product-description { 
+width:50%;
+} 
+
+.cart-table {
+    display: grid;
+    margin: 40px;
+}
